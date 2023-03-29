@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestTest</string>
+    <string name="number_of_dice">Number of dice</string>
+    <string name="number_of_sides">Number of sides</string>
+    <string name="re_roll_ones">Re-roll ones</string>
+    <string name="roll">Roll</string>
+    <string name="apply_threshold">Apply threshold</string>
+    <string name="roll_results">Roll results:</string>
+    <string name="summary">Summary:</string>
+    <string name="number">Number</string>
+</resources>
