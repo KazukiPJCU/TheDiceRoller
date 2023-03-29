@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         val numberOfDiceEditText = findViewById<EditText>(R.id.numberOfDiceEditText)
         val numberOfSidesEditText = findViewById<EditText>(R.id.numberOfSidesEditText)
-//        val rerollThresholdEditText = findViewById<EditText>(R.id.rerollThresholdEditText)
         val rollButton = findViewById<Button>(R.id.rollButton)
         val rerollOnesButton = findViewById<Button>(R.id.rerollOnesButton)
         val applyThresholdButton = findViewById<Button>(R.id.applyThresholdButton)

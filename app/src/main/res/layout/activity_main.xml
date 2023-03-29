@@ -10,46 +10,46 @@
         android:id="@+id/numberOfDiceEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="44dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/number_of_dice"
         android:inputType="number"
         android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/numberOfSidesEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints="6 = D6 dice"
         android:ems="10"
         android:hint="@string/number_of_sides"
         android:inputType="number"
         android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberOfDiceEditText"
-        android:autofillHints="6 = D6 dice" />
+        app:layout_constraintTop_toBottomOf="@+id/numberOfDiceEditText" />
 
     <Button
         android:id="@+id/rerollOnesButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="118dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="228dp"
         android:text="@string/re_roll_ones"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/applyThresholdButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="25dp"
+        android:layout_width="130dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="12dp"
         android:text="@string/apply_threshold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,9 +58,10 @@
         android:id="@+id/rollButton"
         android:layout_width="118dp"
         android:layout_height="69dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="228dp"
         android:text="@string/roll"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,12 +92,12 @@
         android:layout_width="74dp"
         android:layout_height="69dp"
         android:layout_marginTop="12dp"
+        android:autofillHints="Chose results equal or above"
         android:hint="@string/number"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applyThresholdButton"
-        android:autofillHints="Chose results equal or above" />
+        app:layout_constraintTop_toBottomOf="@+id/applyThresholdButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
